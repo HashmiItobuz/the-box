@@ -15,228 +15,300 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-      <nav class="navbar">
-        <div id="title">
-          <div>
+    <nav class="navbar">
+      <div id="title" class="flexbox">
+        <div>
+          <img class="home-img" src="images/random-symboles-3.svg" alt="building" />
+        </div>
+
+        <div class="home-title"><i>The</i>Box</div>
+
+        <ul id="content">
+          <li class="home"><a href="#">Home</a></li>
+          <li class="home"><a href="#">About Us</a></li>
+          <li class="home"><a href="#">Projects</a></li>
+          <li class="home"><a href="#">Services</a></li>
+          <li class="home"><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="Hero">
+        <div class="hero-middle-text">Building things is our mission.</div>
+        <div class="features">
+          <div class="features-container">
+            <p id="features-title">Feature Projects</p>
+            <p id="features-content">The National University of Architecture</p>
+          </div>
+        </div>
+        <div class="features-button">
+          <div class="button" id="back-btn">
+            <i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp;Back
+          </div>
+          <div class="button" id="next-btn">
+            Next&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+    </section>
+
+    <section class="reputation">
+        <div id="reputation-heading">Our Reputation</div>
+        <div class="reputation-container">
+          <div class="reputation-items" id="reputation-items1">
+            <div class="items"><img src="images/icon.svg" alt="Reputation icon" /></div>
+            <div class="items reputation-heading">Best Services</div>
+            <div class="items reputation-content">
+              Nullam senectus porttitor in eget. Eget rutrum leo interdum.
+            </div>
+          </div>
+          <div class="reputation-items" id="reputation-items2">
+            <div class="items"><img src="images/icon.svg" alt="Reputation icon"/></div>
+            <div class="items reputation-heading">Best Teams</div>
+            <div class="items reputation-content">
+              Cursus semper tellus volutpat aliquet lacus.
+            </div>
+          </div>
+          <div class="reputation-items" id="reputation-items3">
+            <div class="items"><img src="images/icon1.svg" alt="Reputation icon" /></div>
+            <div class="items reputation-heading">Best Designs</div>
+            <div class="items reputation-content">
+              Ultricies at ipsum nunc, tristique nam lectus.
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+      <div class="about-us-image">
+        <img src="images/unsplash_6anudmpILw4.svg"  alt="Man image"/>
+      </div>
+      <div class="about-us-item">
+        <div class="about-us-sub-items">About us</div>
+        <div class="about-us-sub-items" id="about-us-content">
+          For more than 30 years we have been delivering world-class
+          construction and we’ve built many lasting relationships along the
+          way.<br /><br />
+          We’ve matured into an industry leader and trusted resource for those
+          seeking quality, innovation and reliability when building in the U.S.
+        </div>
+        <div class="about-us-sub-items" id="about-us-botton">
+          More on Our History
+        </div>
+      </div>
+    </section>
+    <section class="services-section">
+      <div class="services-title">Services</div>
+      <div class="services-section-container">
+        <div class="services-card-conatainer">
+          <div class="services-cards odd">
+            <div class="services-items"><img src="images/icon3.svg" alt="Construction icon" /><hr></div>
+            <div class="services-items">Construction</div>
+          </div>
+          <div class="services-cards even">
+            <div class="services-items"><img src="images/icon4.svg"  alt="Renovation icon"/></div>
+            <div class="services-items">Renovation</div>
+          </div>
+          <div class="services-cards odd">
+            <div class="services-items"><img src="images/icon5.svg"  alt="Consultation icon"/></div>
+            <div class="services-items">Consultation</div>
+          </div>
+        </div>
+        <div class="services-card-conatainer">
+          <div class="services-cards even">
+            <div class="services-items"><img src="images/icon6.svg"  alt="Repair icon"/></div>
+            <div class="services-items">Repair Services</div>
+          </div>
+          <div class="services-cards odd">
+            <div class="services-items"><img src="images/icon7.svg"  alt="Architecture icon"/></div>
+            <div class="services-items">Architecture</div>
+          </div>
+          <div class="services-cards even">
+            <div class="services-items"><img src="images/icon8.svg"  alt="Electric icon"/></div>
+            <div class="services-items">Electric</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="stats">
+      <div class="stats-container">
+        <div class="stats-cards-img1">
+          <img src="images/illus.svg" alt="hand icon" />
+        </div>
+        <div class="stats-cards stats-cards1">
+          <div class="stats-cards-items-title">84</div>
+          <div class="stats-cards-items-content">Happy Clients</div>
+        </div>
+        <div class="stats-cards-img2">
+          <img src="images/illus1.svg" alt="Notes icon" />
+        </div>
+        <div class="stats-cards stats-cards2">
+          <div class="stats-cards-items-title">123</div>
+          <div class="stats-cards-items-content">Projects Completed</div>
+        </div>
+        <div class="stats-cards-img3">
+          <img src="images/illus2.svg" alt="Award icon" />
+        </div>
+        <div class="stats-cards stats-cards3">
+          <div class="stats-cards-items-title">37</div>
+          <div class="stats-cards-items-content">Awards Win</div>
+        </div>
+        <div class="stats-cards-img4">
+          <img src="images/illus4.svg" alt="Write icon" />
+        </div>
+        <div class="stats-cards stats-cards4">
+          <div class="stats-cards-items-title">30</div>
+          <div class="stats-cards-items-content">Years in Business</div>
+        </div>
+      </div>
+      <div class="stats-about">
+        <div class="stats-about-title">30 Years Experience</div>
+        <div class="stats-about-content">
+          Our company has been the leading provided construction services to
+          clients throughout the USA since 1988.
+        </div>
+        <div class="stats-about-button"><a href="#">Contact Us</a></div>
+      </div>
+    </section>
+    <section class="adds">
+      <div class="adds-container">
+        <div class="adds-items">
+          <div class="adds-sub-items adds-sub-items1">
+            Free consultation with exceptional quality
+          </div>
+          <div class="adds-sub-items adds-sub-items2">
+            Just one call away: <a href="#">+84 1102 2703</a>
+          </div>
+        </div>
+        <div class="adds-sub-items adds-sub-items3">Get your consultation</div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="project-title">Projects</div>
+      <div class="project-items-1">
+        <div class="project-items-heading">All</div>
+        <div class="project-sub-items">Commercial</div>
+        <div class="project-sub-items">Residential</div>
+        <div class="project-sub-items">other</div>
+      </div>
+      <div class="project-items-2">
+        <div class="project-cards">
+          <div class="project-cards-image">
+            <img src="images/project_image_1.svg" alt="Bulding image" />
+          </div>
+          <div class="project-cards-detail">
+            <div class="project-cards-title">Wildstone Infra Hotel</div>
+            <div class="project-cards-content">
+              2715 Ash Dr. San Jose, South Dakota
+            </div>
+          </div>
+        </div>
+        <div class="project-cards">
+          <div class="project-cards-image">
+            <img src="images/project_image_2.svg" alt="Bulding image" />
+          </div>
+          <div class="project-cards-detail">
+            <div class="project-cards-title">Wish Stone Building</div>
+            <div class="project-cards-content">
+              2972 Westheimer Rd. Santa Ana, Illinois
+            </div>
+          </div>
+        </div>
+        <div class="project-cards">
+          <div class="project-cards-image">
+            <img src="images/project_image_3.svg" alt="Bulding image" />
+          </div>
+          <div class="project-cards-detail">
+            <div class="project-cards-title">Mr. Parkinston’s House</div>
+            <div class="project-cards-content">
+              3517 W. Gray St. Utica, Pennsylvania
+            </div>
+          </div>
+        </div>
+        <div class="project-cards">
+          <div class="project-cards-image">
+            <img src="images/project_image_4.svg" alt="" />
+          </div>
+          <div class="project-cards-detail">
+            <div class="project-cards-title">Oregano Height</div>
+            <div class="project-cards-content">
+              2464 Royal Ln. Mesa, New Jersey
+            </div>
+          </div>
+        </div>
+
+        <div class="project-cards-button ">
+          <div class="project-cards-button-back">
+            <i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp;Back
+          </div>
+          <div class="project-cards-button-next">
+            Next &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="CTA">
+      <div class="CTA-items-1">
+        <div class="CTA-title">What can us do for you?</div>
+        <div class="CTA-content">
+          We are ready to work on a project of any complexity,
+          <span>whether it’s commercial or residential.</span>
+        </div>
+      </div>
+      <div class="CTA-items-2">
+        <form action="">
+          <input type="text" placeholder="Your Name *" required />
+          <input type="email" placeholder="Email *" />
+          <input type="text" placeholder="Reason for contacting *" />
+          <input type="number" placeholder="Phone *" />
+          <textarea
+            rows="8"
+            cols="51"
+            placeholder="Message *"
+            class="text-placeholder"
+          ></textarea>
+          <p>* indicates a required field</p>
+          <button class="form-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section class="bottom">
+      <div class="bottom-items-1">
+        <div class="bottom-sub-items">
+          <span>Address:</span>6391 Elgin St. Celina, Delaware 10299
+        </div>
+        <div class="bottom-sub-items"><span>Phone:</span>+84 1102 2703</div>
+        <div class="bottom-sub-items"><span>Email:</span>hello@thebox.com</div>
+        <div class="bottom-image">
+          <div class="bottom-icon">
             <img class="home-img" src="images/Random Symboles 3.svg" />
           </div>
 
           <div class="home-title"><i>The</i>Box</div>
-
-          <div id="content">
-            <div class="home"><a href="#">Home</a></div>
-            <div class="home"><a href="#">About Us</a></div>
-            <div class="home"><a href="#">Projects</a></div>
-            <div class="home"><a href="#">Services</a></div>
-            <div class="home"><a href="#">Contact Us</a></div>
-          </div>
         </div>
-      </nav>
-      <section id="Hero">
-        <div id="Hero">
-          <div class="hero-middle-text">Building things is our mission.</div>
-          <div class="features">
-            <p id="features-title">Feature Projects</p>
-            <p id="features-content">The National University of Architecture</p>
-            <div class="button " id="back-btn">&#x2190 Back</div>
-            <div class="button" id="next-btn">Next &#x2192</div>
-          </div>
+      </div>
+      <div class="bottom-items-2">
+        <form action="">
+          <div class="bottom-form-input-title">NEWSLETTER:</div>
+          <input
+            type="email"
+            class="bottom-form-input-email"
+            placeholder="Your email here"
+          />
+          <a href="#"
+            ><input type="button" class="bottom-form-button" value="Subscribe"
+          /></a>
+        </form>
+        <div class="bottom-socail-title">SOCIAL:</div>
+        <div class="bottom-social-icons">
+          <img class="icon" src="images/akar-icons_facebook-fill.svg" />
+          <img class="icon" src="images/social_linkedin-with-circle.svg" />
+          <img class="icon" src="images/vector.svg" />
         </div>
-      </section>
-      <section class="reputation">
-        <div class="reputation">
-          <div id="reputation-heading">Our Reputation</div>
-          <div class="reputation-container">
-            <div class="reputation-items" id="reputation-items1">
-              <div class="items"><img src="images/icon.svg" /></div>
-              <div class="items reputation-heading">Best Services</div>
-              <div class="items reputation-content">
-                Nullam senectus porttitor in eget. Eget rutrum leo interdum.
-              </div>
-            </div>
-            <div class="reputation-items" id="reputation-items2">
-              <div class="items"><img src="images/icon.svg" /></div>
-              <div class="items reputation-heading">Best Teams</div>
-              <div class="items reputation-content">
-                Cursus semper tellus volutpat aliquet lacus.
-              </div>
-            </div>
-            <div class="reputation-items" id="reputation-items3">
-              <div class="items"><img src="images/icon1.svg" /></div>
-              <div class="items reputation-heading">Best Designs</div>
-              <div class="items reputation-content">
-                Ultricies at ipsum nunc, tristique nam lectus.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="about-us">
-
-          <div class="about-us-image">
-            <img src="images/unsplash_6anudmpILw4.svg" />
-          </div>
-          <div class="about-us-item">
-            <div class="about-us-sub-items">About us</div>
-            <div class="about-us-sub-items" id="about-us-content">
-              For more than 30 years we have been delivering world-class
-              construction and we’ve built many lasting relationships along the
-              way.<br /><br />
-              We’ve matured into an industry leader and trusted resource for
-              those seeking quality, innovation and reliability when building in
-              the U.S.
-            </div>
-            <div class="about-us-sub-items" id="about-us-botton">
-              More on Our History
-            </div>
-          </div>
-
-      </section>
-      <section class="services-section">
-        <div class="services-title">Services</div>
-        <div class="services-section-container">
-          <div class="services-card-conatainer">
-            <div class="services-cards odd">
-              <div class="services-items"><img src="images/icon3.svg"></div>
-              <div class="services-items">Construction</div>
-            </div>
-            <div class="services-cards even">
-              <div class="services-items"><img src="images/icon4.svg"></div>
-              <div class="services-items">Renovation</div>
-            </div>
-            <div class="services-cards odd">
-              <div class="services-items"><img src="images/icon5.svg"></div>
-              <div class="services-items">Consultation</div>
-            </div>
-          </div>
-          <div class="services-card-conatainer">
-            <div class="services-cards even">
-              <div class="services-items"><img src="images/icon6.svg"></div>
-              <div class="services-items">Repair Services</div>
-            </div>
-            <div class="services-cards odd">
-              <div class="services-items"><img src="images/icon7.svg"></div>
-              <div class="services-items">Architecture</div>
-            </div>
-            <div class="services-cards even">
-              <div class="services-items"><img src="images/icon8.svg"></div>
-              <div class="services-items">Electric</div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="stats">
-        <div class="stats-container">
-          <div class="stats-cards-img1"><img src="images/illus.svg" alt="hand icon"></div>
-          <div class="stats-cards stats-cards1">
-            <div class="stats-cards-items-title">84</div>
-            <div class="stats-cards-items-content">Happy Clients</div>
-          </div>
-          <div class="stats-cards-img2"><img src="images/illus1.svg" alt="Notes icon"></div>
-          <div class="stats-cards stats-cards2">
-            <div class="stats-cards-items-title">123</div>
-            <div class="stats-cards-items-content">Projects Completed</div>
-          </div>
-          <div class="stats-cards-img3"><img src="images/illus2.svg" alt="Award icon"></div>
-          <div class="stats-cards stats-cards3">
-            <div class="stats-cards-items-title">37</div>
-            <div class="stats-cards-items-content">Awards Win</div>
-          </div>
-          <div class="stats-cards-img4"><img src="images/illus4.svg" alt="Write icon"></div>
-          <div class="stats-cards stats-cards4">
-            <div class="stats-cards-items-title">30</div>
-            <div class="stats-cards-items-content">Years in Business</div>
-          </div>
-        </div>
-        <div class="stats-about">
-          <div class="stats-about-title">30 Years Experience</div>
-          <div class="stats-about-content">Our company has been the leading provided construction services to clients throughout the USA since 1988.</div>
-          <div class="stats-about-button">Contact Us</div>
-        </div>
-
-      </section>
-      <section class="adds">
-        <div class="adds-container">
-          <div class="adds-items">
-            <div class="adds-sub-items adds-sub-items1">Free consultation with exceptional quality</div>
-            <div class="adds-sub-items adds-sub-items2">Just one call away: <a href="#">+84 1102 2703</a></div>
-          </div>
-          <div class="adds-sub-items adds-sub-items3">Get your consultation</div>
-        </div>
-      </section>
-      <section class="projects">
-        <div class="project-title">Projects</div>
-        <div class="project-items-1">
-          <div class="project-items-heading">All</div>
-          <div class="project-sub-items">Commercial</div>
-          <div class="project-sub-items">Residential</div>
-          <div class="project-sub-items">other</div>
-        </div>
-        <div class="project-items-2">
-          <div class="project-cards">
-            <div class="project-cards-image"><img src="images/project_image_1.svg" alt=""></div>
-            <div class="project-cards-detail">
-              <div class="project-cards-title">Wildstone Infra Hotel</div>
-              <div class="project-cards-content">2715 Ash Dr. San Jose, South Dakota</div>
-            </div>
-          </div>
-          <div class="project-cards">
-            <div class="project-cards-image"><img src="images/project_image_2.svg" alt=""></div>
-            <div class="project-cards-detail">
-              <div class="project-cards-title">Wish Stone Building</div>
-              <div class="project-cards-content">2972 Westheimer Rd. Santa Ana, Illinois</div>
-            </div>
-          </div>
-          <div class="project-cards">
-            <div class="project-cards-image"><img src="images/project_image_3.svg" alt=""></div>
-            <div class="project-cards-detail">
-              <div class="project-cards-title">Mr. Parkinston’s House</div>
-              <div class="project-cards-content">3517 W. Gray St. Utica, Pennsylvania</div>
-            </div>
-          </div>
-          <div class="project-cards">
-            <div class="project-cards-image"><img src="images/project_image_4.svg" alt=""></div>
-            <div class="project-cards-detail">
-              <div class="project-cards-title">Oregano Height</div>
-              <div class="project-cards-content">2464 Royal Ln. Mesa, New Jersey </div>
-            </div>
-          </div>
-
-          <div class="project-cards-button">
-            <div class="project-cards-button-back"><i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp;Back</div>
-            <div class="project-cards-button-next">Next &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></div>
-          </div>
-        </div>
-      </section>
-      <section class="CTA">
-        <div class="CTA-items-1">
-          <div class="CTA-title">What can us do for you?</div>
-          <div class="CTA-content">We are ready to work on a project of any complexity, <span>whether it’s commercial or residential.</span></div>
-        </div>
-        <div class="CTA-items-2">
-          <form action="">
-            <input type="text" placeholder="Your Name *">
-            <input type="email" placeholder="Email *">
-            <input type="text" placeholder="Reason for contacting *">
-            <input type="number" placeholder="Phone *">
-            <textarea rows="8" cols="51" placeholder="Message *" class="text-placeholder"></textarea>
-            <p>* indicates a required field</p>
-            <button class="form-btn">Submit</button>
-          </form>
-        </div>
-      </section>
-      <section class="bottom">
-        <div class="`">
-          <div class="bottom-sub-items"><span>Address:</span>6391 Elgin St. Celina, Delaware 10299</div>
-          <div class="bottom-sub-items"><span>Phone:</span>+84 1102 2703</div>
-          <div class="bottom-sub-items"><span>Email:</span>hello@thebox.com</div>
-        </div>
-      </section>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-text">TheBox Company © 2022. All Rights Reserved</div>
+    </section>
   </body>
 </html>
